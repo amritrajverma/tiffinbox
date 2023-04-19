@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiffin</title>
+	 <meta charset="utf-8">
+    <meta name="discription" content="practice">
+    <meta name="keywords" content="work">
+    <meta name="author" content="amrit raj">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <style type="text/css">
+    	*{
+    		margin:0;
+    		padding:0;
+    		box-sizing: border-box;
+
+    	}
+    	body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to  bottom left,green 25%,yellow 50%,red 65%,blue 80%,orange 96%);
+  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#frauds
+{
+	border: 3px #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#fraud
+{
+    background: rgb(225,230,205);
+	box-shadow: 0 0 25px  #000;
+	border-radius: 15px;
+	flex: 1 1 200px;
+	margin: 6px;
+	padding: 12px;
+	font-size: 20px;
+}
+#fraud:hover
+{
+	transform:scale(1.5);
+	transition: 2s;
+	z-index: 10000;
+	background: rgb(179,305,102,.6);
+	opacity: 0.5;
+}	
+button
+{
+  padding: 10px;
+  margin-top: 20px;
+  margin-left:70px;
+  opacity: 10px;
+}
+input
+{
+  margin-left: 50px;
+  background-color: lightblue;
+  border: 5px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 50px;
+  
+  
+}
+
+img
+{
+ height:10%;
+
+  
+}
+
+    </style>
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</head>
+<body>
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="#">Credits</a>
+  <a href="https://amrit11437.github.io/arv.github.io/">About me</a>
+  <a href="#">Contact us</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<div id="frauds">
+		<div id="fraud">
+			<center>
+			<font><b>TIFFIN CENTRAL</b></font>
+		</center>
+		</div>
+		
+	</div>
+	<div id="frauds">
+		<div id="fraud">
+			<center>
+				<marquee>
+			<font><i> Amrit khae Amrit ho jae...</i></font></marquee>
+		</center>
+		</div>
+		
+	</div>
+  <div>
+    <center>
+      <img src="tiffin.jpeg">
+    </center>
+  </div>
+  
+  <div class="amrit" >
+    <div>
+  <form>
+  <input  name=" name"></form>
+  <div>
+  <button type=""><h1>Place Order</h1></button>
+  </div>
+</div>
+</body>
+</html>
